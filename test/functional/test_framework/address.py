@@ -14,8 +14,8 @@ from .script import hash256, hash160, sha256, CScript, OP_0
 from .segwit_addr import encode_segwit_address
 from .util import assert_equal, hex_str_to_bytes
 
-ADDRESS_BCRT1_UNSPENDABLE = 'rltc1qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqe9kxtl'
-ADDRESS_BCRT1_UNSPENDABLE_DESCRIPTOR = 'addr(rltc1qqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqe9kxtl)#xm6azk0m'
+ADDRESS_BCRT1_UNSPENDABLE = 'zorksim1zzzzzzzzzztrashzzzzzzzzzzzzzzztrashzzzzzzzzzzzzzzztrashzzzzzzzzzzwk22v7'
+ADDRESS_BCRT1_UNSPENDABLE_DESCRIPTOR = 'addr(zorksim1zzzzzzzzzztrashzzzzzzzzzzzzzzztrashzzzzzzzzzzzzzzztrashzzzzzzzzzz)#wk22v70m'
 # Coins sent to this address can be spent with a witness stack of just OP_TRUE
 ADDRESS_BCRT1_P2WSH_OP_TRUE = 'rltc1qft5p2uhsdcdc3l2ua4ap5qqfg4pjaqlp250x7us7a8qqhrxrxfsqc6h8ge'
 
